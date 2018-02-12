@@ -25,22 +25,25 @@ As any Yii2 widget, in desired view or layout file as follows:
 use easyrider7522\cookieconsent\CookieConsent;
 
 CookieConsent::widget([
-    'palette'   => [
-        'popup'     => [
-            'background'    => '#237afc',
+    'lang'      => 'hu',
+    'options'   => [
+        'palette'   => [
+            'popup'     => [
+                'background'    => '#237afc',
+            ],
+            'button'    => [
+                'background'    => '#fff',
+                'text'          => '#237afc',
+            ],
         ],
-        'button'    => [
-            'background'    => '#fff',
-            'text'          => '#237afc',
+        'theme'     => 'classic',
+        'position'  => 'bottom-right',
+        'content'   => [
+            'message'   => 'Ez az oldal is sütiket használ, aminek a tényét az EU-s törvények alapján jelezni kell a felhasználók felé.',
+            'dismiss'   => 'Értem',
+            'link'      => 'Sütikről',
+            'href'      => 'https://hu.wikipedia.org/wiki/HTTP-s%C3%BCti',
         ],
-    ],
-    'theme'     => 'classic',
-    'position'  => 'bottom-right',
-    'content'   => [
-        'message'   => 'This website uses cookies to ensure you get the best experience on our website.',
-        'dismiss'   => 'Got it!',
-        'link'      => 'Learn more',
-        'href'      => 'http://www.example.com/cookiepolicy',
     ],
 ]);
 ````

@@ -6,19 +6,19 @@ use yii\web\AssetBundle;
 
 class CookieConsentAsset extends AssetBundle
 {
-	public $sourcePath = '@bower/cookieconsent3/build/';
+    public $sourcePath = '@bower/cookieconsent3/build/';
 
-	public $css = [
-		// '//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css',
-		'cookieconsent.min.css',
-	];
+    public $css = [
+        // '//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css',
+        'cookieconsent.min.css',
+    ];
 
-	public $js= [
-		// '//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js',
-		'cookieconsent.min.js',
-	];
+    public $js= [
+        // '//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js',
+        'cookieconsent.min.js',
+    ];
 
-	public $jsOptions= [
-		'position'	=> 'POS_HEAD',
-	];
+    public $jsOptions= [
+        'position'  => 'POS_HEAD',
+    ];
 }

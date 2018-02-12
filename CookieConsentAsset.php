@@ -19,6 +19,6 @@ class CookieConsentAsset extends AssetBundle
     ];
 
     public $jsOptions= [
-        'position'  => 'POS_HEAD',
+        'position'  => \yii\web\View::POS_HEAD,
     ];
 }

@@ -1,2 +1,57 @@
 # yii2-cookieconsent
 Implementation of Cookie Consent v3 cookie usage warner as Yii2 widget
+
+Thanks to [insites](https://cookieconsent.insites.com/)
+
+## Installation
+### Composer
+````bash
+composer require easyrider7522/yii2-cookieconsent "@alpha"
+````
+
+or manually add to the `required` section of your project's `composer.json`
+````json
+"easyrider7522/yii2-cookieconsent": "@alpha"
+````
+and run `composer update` shell command
+
+Since it's a pre-release (currently in alpha state) stability flag `@alpha` must be used with the package (as you can see above) in order to be able to install it without changing `minimum-stability` property of the `composer.json`, which is global for your whole project.
+
+## Usage
+
+As any Yii2 widget, in desired view or layout file as follows:
+````php
+<?php
+use easyrider7522\cookieconsent\CookieConsent;
+
+CookieConsent::widget([
+    'palette'   => [
+        'popup'     => [
+            'background'    => '#237afc',
+        ],
+        'button'    => [
+            'background'    => '#fff',
+            'text'          => '#237afc',
+        ],
+    ],
+    'theme'     => 'classic',
+    'position'  => 'bottom-right',
+    'content'   => [
+        'message'   => 'This website uses cookies to ensure you get the best experience on our website.',
+        'dismiss'   => 'Got it!',
+        'link'      => 'Learn more',
+        'href'      => 'http://www.example.com/cookiepolicy',
+    ],
+]);
+````
+
+## Removal
+````bash
+composer remove easyrider7522/yii2-cookieconsent
+````
+
+or manually delete it from the `required` section of your project's `composer.json` and run `composer update`
+
+## Dependencies
+
+[Cookie Consent](https://github.com/insites/cookieconsent)

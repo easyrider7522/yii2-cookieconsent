@@ -25,7 +25,7 @@ As any Yii2 widget, in desired view or layout file as follows:
 use easyrider7522\cookieconsent\CookieConsent;
 
 CookieConsent::widget([
-    'lang'      => 'hu',
+    'lang'      => 'en',
     'options'   => [
         'palette'   => [
             'popup'     => [

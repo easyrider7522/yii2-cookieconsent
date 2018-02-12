@@ -1,0 +1,32 @@
+{
+    "name": "easyrider7522/yii2-cookieconsent",
+    "description": "Implementation of Cookie Consent v3 cookie usage warner as Yii2 widget",
+    "keywords": [
+		"cookie",
+		"consent",
+		"cookieconsent",
+        "yii",
+        "yii2",
+        "yii 2",
+        "widget",
+        "easyrider7522",
+	],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/easyrider7522/yii2-cookieconsent",
+    "authors": [
+        {
+            "name": "easyrider7522",
+            "email": "easyrider7522@gmail.com",
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "2.0.*",
+        "bower-asset/cookieconsent2": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "easyrider7522\\cookieconsent\\": ""
+        }
+    }
+}

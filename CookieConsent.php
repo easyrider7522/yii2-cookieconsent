@@ -47,7 +47,7 @@ class CookieConsent extends Widget
         
         $code = 'window.addEventListener("load",function(){window.cookieconsent.initialise(' . json_encode( $this->options ) . ')});';
         
-        $view->registerJs( $code, 'POS_HEAD', 'cookieconsent-start' );
+        $view->registerJs( $code, $view::POS_HEAD, 'cookieconsent-start' );
         
         CookieConsentAsset::register( $view );
     }

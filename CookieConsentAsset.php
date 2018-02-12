@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class CookieConsentAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/cookieconsent3/build/';
+    public $sourcePath = '@bower/cookieconsent/build/';
 
     public $css = [
         // '//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css',

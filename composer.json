@@ -22,7 +22,7 @@
     ],
     "require": {
         "yiisoft/yii2": "2.0.*",
-        "bower-asset/cookieconsent2": "3.*"
+        "bower-asset/cookieconsent": "3.*"
     },
     "autoload": {
         "psr-4": {

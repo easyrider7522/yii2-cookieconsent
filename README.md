@@ -47,6 +47,7 @@ CookieConsent::widget([
     ],
 ]);
 ````
+Customization can be easily done on the plugin developer's [site](https://cookieconsent.insites.com/download/) and translated into the widget's PHP-styled array.
 
 ## Removal
 ````bash

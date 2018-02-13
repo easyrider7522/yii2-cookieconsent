@@ -60,14 +60,11 @@ or manually delete it from the `required` section of your project's `composer.js
 [Cookie Consent](https://github.com/insites/cookieconsent)
 
 ## Screenshots
-
+###### Sample 1. Widget is overlapping Yii's default main menu ot the top of the page.
 ![Cookie Consent Yii2 widget sample 1](https://raw.githubusercontent.com/easyrider7522/yii2-cookieconsent/master/sample1.jpg)
-##### Sample 1. Widget is overlapping Yii's default main menu ot the top of the page.
 
-
+###### Sample 2. Widget is at the bottom of the page.
 ![Cookie Consent Yii2 widget sample 2](https://raw.githubusercontent.com/easyrider7522/yii2-cookieconsent/master/sample2.jpg)
-##### Sample 2. Widget is at the bottom of the page.
 
-
+###### Sample 3. Widget is a box at page's bottom-right corner.
 ![Cookie Consent Yii2 widget sample 3](https://raw.githubusercontent.com/easyrider7522/yii2-cookieconsent/master/sample3.jpg)
-##### Sample 3. Widget is a box at page's bottom-right corner.

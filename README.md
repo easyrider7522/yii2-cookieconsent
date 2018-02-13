@@ -47,7 +47,25 @@ CookieConsent::widget([
     ],
 ]);
 ````
-Customization can be easily done on the plugin developer's [site](https://cookieconsent.insites.com/download/) and translated into the widget's PHP-styled array.
+Customization can be easily done on the plugin developer's [site](https://cookieconsent.insites.com/download/) and manually translated to PHP array.
+![Plugin settings object within JS](https://raw.githubusercontent.com/easyrider7522/yii2-cookieconsent/master/copying-js-object.jpg)
+
+Property `optionJs` was introduced for compatibility with native JS so, the object data can be directly copied to it as string:
+````php
+CookieConsent::widget([
+    'optionsJs' => '{
+        "palette": {
+            "popup": {
+                "background": "#000"
+            },
+            "button": {
+                "background": "#f1d600"
+            }
+        },
+        "position": "top"
+    }'
+];
+````
 
 ## Removal
 ````bash

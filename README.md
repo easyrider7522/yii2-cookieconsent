@@ -29,20 +29,22 @@ CookieConsent::widget([
     'options'   => [
         'palette'   => [
             'popup'     => [
-                'background'    => '#237afc',
+                'background'    => '#222',
+                'text'          => '#fff',
             ],
             'button'    => [
-                'background'    => '#fff',
-                'text'          => '#237afc',
+                'background'    => '#459f45',
+                'text'          => '#fff',
             ],
         ],
         'theme'     => 'classic',
-        'position'  => 'bottom-right',
+        'position'  => 'top',
+        'type'      => 'opt-in',
         'content'   => [
-            'message'   => 'Ez az oldal is sütiket használ, aminek a tényét az EU-s törvények alapján jelezni kell a felhasználók felé.',
-            'dismiss'   => 'Értem',
-            'link'      => 'Sütikről',
-            'href'      => 'https://hu.wikipedia.org/wiki/HTTP-s%C3%BCti',
+            'message'   => 'This website uses cookies to ensure you get the best experience on our website.',
+            'dismiss'   => 'Got it!',
+            'link'      => 'Learn more',
+            'href'      => 'http://cookiesandyou.com/',
         ],
     ],
 ]);

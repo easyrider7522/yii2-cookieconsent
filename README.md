@@ -58,3 +58,11 @@ or manually delete it from the `required` section of your project's `composer.js
 ## Dependencies
 
 [Cookie Consent](https://github.com/insites/cookieconsent)
+
+## Screenshots
+
+![Cookie Consent Yii2 widget sample 1](https://raw.githubusercontent.com/easyrider7522/yii2-cookieconsent/master/sample1.jpg)
+
+![Cookie Consent Yii2 widget sample 2](https://raw.githubusercontent.com/easyrider7522/yii2-cookieconsent/master/sample2.jpg)
+
+![Cookie Consent Yii2 widget sample 3](https://raw.githubusercontent.com/easyrider7522/yii2-cookieconsent/master/sample3.jpg)
